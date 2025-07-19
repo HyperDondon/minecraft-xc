@@ -2,7 +2,7 @@ main: phonon.xc.XCPlugin
 name: xc
 version: 0.0.4
 api-version: 1.16
-softdepend: [kotlin, WorldGuard]
+softdepend: [WorldGuard]
 commands:
   xc:
     description: xc
@@ -18,3 +18,6 @@ permissions:
   xc.admin:
     description: Allow xc admin commands
     default: op
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.0

@@ -15,7 +15,7 @@ pluginManagement {
 
     plugins {
         // Apply the Kotlin JVM plugin to add support for Kotlin.
-        id("org.jetbrains.kotlin.jvm") version "1.6.10"
+        kotlin("jvm") version "2.2.0"
         id("com.github.johnrengelman.shadow") version "7.1.2"
         // maven() // no longer needed in gradle 7
         

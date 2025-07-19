@@ -2,7 +2,7 @@ main: phonon.xv.XVPlugin
 name: xv
 version: 0.0.4
 api-version: 1.16
-depend: [kotlin, packetevents]
+depend: [packetevents]
 softdepend: [xc]
 commands:
   xv:
@@ -21,3 +21,6 @@ permissions:
   xv.admin:
     description: Allow xv admin commands
     default: op
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.0
